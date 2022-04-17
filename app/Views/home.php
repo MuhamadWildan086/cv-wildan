@@ -23,10 +23,10 @@ https://templatemo.com/tm-531-reflux
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
-    <link rel="stylesheet" href="assets/css/owl.css" />
-    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <link rel="stylesheet" href="<?= base_url()?>/assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="<?= base_url()?>/assets/css/templatemo-style.css" />
+    <link rel="stylesheet" href="<?= base_url()?>/assets/css/owl.css" />
+    <link rel="stylesheet" href="<?= base_url()?>/assets/css/lightbox.css" />
   </head>
 
   <body>
@@ -436,10 +436,10 @@ CIREUNGHAS, KAB. SUKABUMI, JAWA BARAT, 43193
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="<?= base_url()?>/assets/js/isotope.min.js"></script>
+    <script src="<?= base_url()?>/assets/js/owl-carousel.js"></script>
+    <script src="<?= base_url()?>/assets/js/lightbox.js"></script>
+    <script src="<?= base_url()?>/assets/js/custom.js"></script>
     <script>
       //according to loftblog tut
       $(".main-menu li:first").addClass("active");
